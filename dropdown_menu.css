@@ -1,0 +1,41 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.menu-item {
+  width: 200px;
+  height: 70px;
+  border: 1px solid black;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  flex: 0;
+  top: 0px;
+  left: 200px;
+}
+
+.root-item {
+  background-color: #FFA5A5;
+}
+
+.sub-item1 {
+  background-color: #FEA5FF;
+}
+
+.sub-item2 {
+  background-color: #A5FFAB;
+}
+
+.sub-itemx {
+  background-color: white;
+}
+
